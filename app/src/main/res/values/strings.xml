@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">TopUp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ml">Mobile Legends</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="next">Silahkan Klik Disini</string>
+    <string name="exit">Exit</string>
+    <string name="pubg">PUBG</string>
+    <string name="ff">Free Fire</string>
+    <string name="pb">Point Blank</string>
+    <string name="about">Tentang</string>
+    <string name="list">Game List</string>
+    <string name="search">Search</string>
+    <string name="menu_1">chart</string>
+    <string name="menu_2">Tentang</string>
+    <string name="search_hint">Masukkan kata</string>
+    <string name="harga">Harga Diamond ML</string>
+    <string name="diamond">Diamonds</string>
+    <string name="hargad">Harga Diamond</string>
+
+    <string-array name="diamond_list">
+        <item>3 Diamond</item>
+        <item>15 Diamond</item>
+        <item>65 Diamond</item>
+        <item>154 Diamond</item>
+        <item>256 Diamond</item>
+        <item>503 Diamond</item>
+    </string-array>
+
+    <string-array name="harga_diamond">
+        <item>Rp1.000</item>
+        <item>Rp3.000</item>
+        <item>Rp24.000</item>
+        <item>Rp35.000</item>
+        <item>Rp76.000</item>
+        <item>Rp135.000</item>
+    </string-array>
+
+    <integer-array name="foto">
+        <item>@drawable/dm</item>
+    </integer-array>
+</resources>

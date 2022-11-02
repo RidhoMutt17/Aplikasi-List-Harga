@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.topup.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragmentHome_to_dashboard"
+            app:destination="@id/dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.topup.dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_pubg"
+            app:destination="@id/pubg" />
+        <action
+            android:id="@+id/action_dashboard_to_freefire"
+            app:destination="@id/freefire" />
+        <action
+            android:id="@+id/action_dashboard_to_pointblank"
+            app:destination="@id/pointblank" />
+        <action
+            android:id="@+id/action_dashboard_to_mobileLegends"
+            app:destination="@id/mobileLegends" />
+    </fragment>
+    <activity
+        android:id="@+id/pubg"
+        android:name="com.example.topup.Pubg"
+        android:label="activity_pubg"
+        tools:layout="@layout/activity_pubg" />
+    <activity
+        android:id="@+id/freefire"
+        android:name="com.example.topup.Freefire"
+        android:label="activity_freefire"
+        tools:layout="@layout/activity_freefire" />
+    <activity
+        android:id="@+id/pointblank"
+        android:name="com.example.topup.Pointblank"
+        android:label="activity_pointblank"
+        tools:layout="@layout/activity_pointblank" />
+    <activity
+        android:id="@+id/mobileLegends"
+        android:name="com.example.topup.MobileLegends"
+        android:label="activity_mobile_legends"
+        tools:layout="@layout/activity_mobile_legends" />
+</navigation>
